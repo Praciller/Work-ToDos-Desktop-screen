@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div>
+      <div class="intro">
+        <h1 class="intro__header">Work To-Dos</h1>
+      </div>
+
+      <div class="helptext">
+        <p class="helptext__first">
+          Enter text into the input field to add items to your list.
+        </p>
+        <p class="helptext__second">Click the item to mark it as complete.</p>
+        <p class="helptext__third">
+          Click the "X" to remove the item from your list.
+        </p>
+      </div>
+
+      <div class="userinput">
+        <input
+          class="userinput__input"
+          id="userInput"
+          type="text"
+          placeholder="New item..."
+          maxlength="27"
+        />
+        <button class="userinput__button" id="add">
+          <i class="fas fa-pencil-alt"></i>
+        </button>
+      </div>
+
+      <!-- Empty List -->
+      <div class="todos">
+        <ul></ul>
+      </div>
+    </div>
+  </body>
+  <script type="text/javascript" src="update.js"></script>
+</html>

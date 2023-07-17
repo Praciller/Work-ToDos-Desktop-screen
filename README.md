@@ -1,2 +1,14 @@
-# Work-ToDos-Desktop-screen
-Work to dos desktop screen | use HTML, CSS and Javascript.
+# TodoList Project Example
+
+### folder
+
+```
+├── README.md
+├── index.html
+├── js-script.js
+└── style.css
+```
+
+FontAwesome CDN
+
+- https://cdnjs.com/libraries/font-awesome
